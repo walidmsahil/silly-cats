@@ -1,0 +1,96 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    background-color:antiquewhite;
+    
+}
+
+.container
+{
+    width: 1300px;
+    margin:16px auto; /*centers the layout*/
+}
+
+.logo
+{   
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+header
+{
+    text-align:center;
+}
+
+.info
+{
+    font-family:'Lucida Sans';
+    font-size: 20px;
+}
+
+nav li
+{   
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul
+{   
+    background-color: #3D405B;
+    padding-left: 0%;
+}
+
+nav a, nav a:visited, nav a:active
+{
+    color:rgb(243, 235, 235);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* hover = mouse is on the element */
+ nav a:hover 
+ {
+    color:darksalmon;
+    text-decoration: underline;
+ }
+
+ img
+ {
+    width: 400px;
+    height:auto;
+ }
+
+ article
+{   
+    color: black;
+    font-size: 25px;
+
+}
+
+blockquote
+{
+    font-style: italic;
+}
+
+
+
+h1
+{
+    background-color: #E07A5F;
+    font-family:'Lucida Sans Unicode';
+}
+
+ footer
+ {  
+    border: 2px dashed #3D405B ;
+    background-color:#81B29A;
+    color: azure;
+    font-size: 15px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+
+ }
